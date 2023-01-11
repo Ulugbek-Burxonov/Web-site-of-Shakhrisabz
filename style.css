@@ -707,7 +707,16 @@ background: linear-gradient(0deg, rgba(19,249,252,0.7596837803937386) 23%, rgba(
 
   
   @media screen and (max-width: 400px) {
-
+	.text-1 .f-p{
+		width: 80%;
+		color: #fff;
+		font-size: 18px;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 500;
+		border-radius: 20px;
+		padding: 10px;
+		backdrop-filter: blur(2px);
+	}
 	.photo {
 	  width: 100% !important;
 	  min-width: 100% !important ;
