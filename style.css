@@ -307,7 +307,21 @@ body{
 		padding: 10px;
 		backdrop-filter: blur(2px);
 	}
-	
+	.container-f {
+		display: flex;
+		position: relative;
+		max-width: 25%;
+		height: 700px;
+	  }
+	  .photo{
+		min-width: 200% !important;
+	  }
+	.photo:nth-child(3){
+		display: none;
+	  }
+	  .photo:nth-child(4){
+		display: none;
+	  }
 	.dropdown-toggle::after {
 		position: absolute;
 		display: block;
@@ -718,8 +732,8 @@ background: linear-gradient(0deg, rgba(19,249,252,0.7596837803937386) 23%, rgba(
 		backdrop-filter: blur(2px);
 	}
 	.photo {
-	  width: 100% !important;
-	  min-width: 100% !important ;
+	  width: 200% !important;
+	  min-width: 200% !important ;
 	  border-bottom: 10px solid black !important;
 	  background-position: 50% 35% !important;
 	}
