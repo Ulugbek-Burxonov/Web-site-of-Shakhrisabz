@@ -65,6 +65,9 @@ body{
 	  position: relative;
 	  padding-bottom: 115px;
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+}
 .content{
 	height: 100%;
 	position: relative;
