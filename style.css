@@ -281,10 +281,26 @@ body{
 		display: none;
 	}
 	.text-1{
-		padding-top: 50px;
+		padding-top: 300px;
 	}
-	.f-h1{
-		width: 80% !important;
+	.text-1 .f-h1 {
+		max-width: 55%;
+		color: #fff;
+		font-size: 50px;
+		font-family: 'Lobster', cursive;
+		line-height: 100px;
+		border-radius: 20px;
+		backdrop-filter: blur(2px);
+	}
+	.text-1 .f-p{
+		width: 70%;
+		color: #fff;
+		font-size: 20px;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 500;
+		border-radius: 20px;
+		padding: 10px;
+		backdrop-filter: blur(2px);
 	}
 	
 	.dropdown-toggle::after {
